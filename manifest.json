@@ -1,0 +1,15 @@
+{
+  "name": "Mon Calendrier Féminin",
+  "short_name": "CalendrierFéminin",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f0f8ff",
+  "theme_color": "#4682b4",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3176/3176367.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

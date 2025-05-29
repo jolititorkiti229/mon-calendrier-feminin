@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculateur de cycle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Calculateur de Cycle</h1></header>
+  <main>
+    <label for="lastPeriod">Date des dernières règles :</label>
+    <input type="date" id="lastPeriod" />
+    <label for="cycleLength">Durée moyenne du cycle :</label>
+    <select id="cycleLength">
+      <script>
+        for (let i = 21; i <= 35; i++) {
+          document.write(`<option value="${i}">${i} jours</option>`);
+        }
+      </script>
+    </select>
+    <button onclick="calculateCycle()">Calculer</button>
+    <div id="result"></div>
+  </main>
+  <script src="cycle.js"></script>
+</body>
+</html>
